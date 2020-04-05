@@ -1,0 +1,113 @@
+1. Divisibility Check of two numbers
+Write a Python program to check whether a number is completely divisible by another number. Accept two integer values form the user
+
+Code:
+
+for i in range(2):
+    num=int(input("Enter numerator :"))
+    den=int(input("Enter denominator:"))
+    if num%den==0:
+        print("Number",num,"is completely divisible by",den)
+    else:
+        print("Number",num,"is not completely divisible by",den)
+OUTPUT:
+
+Enter numerator :8
+Enter denominator:4
+Number 8 is completely divisible by 4
+Enter numerator :20
+Enter denominator:6
+Number 20 is not completely divisible by 6
+
+Process finished with exit code 0
+
+2. Copy string n times
+Write a Python program to get a string which is n (non-negative integer) copies of a given string.
+
+print("Program to make copies of given string!\n")
+string=str(input("Enter a string :"))
+copy=int(input("How many copies of string you need :"))
+copies=(string * copy)
+print(copy,"copies of",string,"are",copies)
+
+OUTPUT:
+Enter a string :muqeet
+How many copies of string you need :2
+2 copies of muqeet are muqeetmuqeet
+
+3. Vowel Tester
+Write a Python program to test whether a passed letter is a vowel or not
+
+Code:
+
+print("Program to check the given character is vowel or not!\n")
+for i in range(3):
+    a=str(input("Enter the character :"))
+    b=a.casefold()
+    if b in "aeiou":5
+        print("Given character is a vowel!")
+    else:
+        print("Give character is not a vowel!")
+
+Output
+Give character is not a vowel!
+Enter the character :diii
+Give character is not a vowel!
+Enter the character :i
+Given character is a vowel!
+
+
+4. Odd No.s
+Use the third argument of the range() function to make a list of the odd numbers from 1 to 20. Use a for loop to print each number.
+
+Code:
+print("Program to check odd no between 1 to 20!\n")
+odd=[]
+for i in range(1,20,2):
+    odd.append(i)
+print(odd)
+
+OUTPUT
+
+Program to check odd no between 1 to 20!
+
+[1, 3, 5, 7, 9, 11, 13, 15, 17, 19]
+
+5. Food Slicing
+Make a python program that contains your nine favourite dishes in a list called foods.Print the message,
+
+The first three items in the list are:
+
+Then use a slice to print the first three items from that program’s list.Print the message,
+
+Three items from the middle of the list are:
+
+Use a slice to print three items from the middle of the list.Print the message,
+
+The last three items in the list are:
+
+Use a slice to print the last three items in the list.
+CODE:
+
+print("Program to print first 3 middle 3 and last three elements using slicing !\n")
+food=['biryani','lasagnia','tikka','broast','burger','zinger','kofta','mutton','beef']
+print("The first three items in a list of food are :",food[0:3])
+print("The middle three items in a list of food are :",food[3:6])
+print("The last three items in a list of food are :",food[6:9])
+
+OUTPUT:
+Program to print first 3 middle 3 and last three elements using slicing !
+
+The first three items in a list of food are : ['biryani', 'lasagnia', 'tikka']
+The middle three items in a list of food are : ['broast', 'burger', 'zinger']
+The last three items in a list of food are : ['kofta', 'mutton', 'beef']
+
+
+
+
+
+
+
+
+
+
